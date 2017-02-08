@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990716091E4ADB14009AEE25 /* 2017-02-08 12_27_09.gif in Resources */ = {isa = PBXBuildFile; fileRef = 990716041E4ADB14009AEE25 /* 2017-02-08 12_27_09.gif */; };
+		9907160A1E4ADB14009AEE25 /* tableview_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 990716051E4ADB14009AEE25 /* tableview_loading@2x.png */; };
+		9907160B1E4ADB14009AEE25 /* tableview_pull_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 990716061E4ADB14009AEE25 /* tableview_pull_refresh@2x.png */; };
+		9907160C1E4ADB14009AEE25 /* ZFRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990716071E4ADB14009AEE25 /* ZFRefreshControl.swift */; };
+		9907160D1E4ADB14009AEE25 /* ZFRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 990716081E4ADB14009AEE25 /* ZFRefreshView.xib */; };
 		9934BF761E485E5700EE86FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934BF751E485E5700EE86FB /* AppDelegate.swift */; };
 		9934BF781E485E5700EE86FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934BF771E485E5700EE86FB /* ViewController.swift */; };
 		9934BF7B1E485E5700EE86FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9934BF791E485E5700EE86FB /* Main.storyboard */; };
 		9934BF7D1E485E5700EE86FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9934BF7C1E485E5700EE86FB /* Assets.xcassets */; };
 		9934BF801E485E5700EE86FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9934BF7E1E485E5700EE86FB /* LaunchScreen.storyboard */; };
-		9934BFA91E48AC7C00EE86FB /* tableview_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9934BFA41E48AC7C00EE86FB /* tableview_loading@2x.png */; };
-		9934BFAA1E48AC7C00EE86FB /* tableview_pull_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9934BFA51E48AC7C00EE86FB /* tableview_pull_refresh@2x.png */; };
-		9934BFAC1E48AC7C00EE86FB /* ZFRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934BFA71E48AC7C00EE86FB /* ZFRefreshControl.swift */; };
-		9934BFAD1E48AC7C00EE86FB /* ZFRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9934BFA81E48AC7C00EE86FB /* ZFRefreshView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		990716041E4ADB14009AEE25 /* 2017-02-08 12_27_09.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2017-02-08 12_27_09.gif"; sourceTree = "<group>"; };
+		990716051E4ADB14009AEE25 /* tableview_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableview_loading@2x.png"; sourceTree = "<group>"; };
+		990716061E4ADB14009AEE25 /* tableview_pull_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableview_pull_refresh@2x.png"; sourceTree = "<group>"; };
+		990716071E4ADB14009AEE25 /* ZFRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFRefreshControl.swift; sourceTree = "<group>"; };
+		990716081E4ADB14009AEE25 /* ZFRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFRefreshView.xib; sourceTree = "<group>"; };
 		9934BF721E485E5700EE86FB /* ZFRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9934BF751E485E5700EE86FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9934BF771E485E5700EE86FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,10 +32,6 @@
 		9934BF7C1E485E5700EE86FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9934BF7F1E485E5700EE86FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9934BF811E485E5700EE86FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9934BFA41E48AC7C00EE86FB /* tableview_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableview_loading@2x.png"; sourceTree = "<group>"; };
-		9934BFA51E48AC7C00EE86FB /* tableview_pull_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableview_pull_refresh@2x.png"; sourceTree = "<group>"; };
-		9934BFA71E48AC7C00EE86FB /* ZFRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZFRefreshControl.swift; path = RefreshClasses/ZFRefreshControl.swift; sourceTree = "<group>"; };
-		9934BFA81E48AC7C00EE86FB /* ZFRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFRefreshView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		990716021E4ADB14009AEE25 /* ZFRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				990716031E4ADB14009AEE25 /* Sources */,
+				990716071E4ADB14009AEE25 /* ZFRefreshControl.swift */,
+				990716081E4ADB14009AEE25 /* ZFRefreshView.xib */,
+			);
+			path = ZFRefresh;
+			sourceTree = "<group>";
+		};
+		990716031E4ADB14009AEE25 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				990716041E4ADB14009AEE25 /* 2017-02-08 12_27_09.gif */,
+				990716051E4ADB14009AEE25 /* tableview_loading@2x.png */,
+				990716061E4ADB14009AEE25 /* tableview_pull_refresh@2x.png */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		9934BF691E485E5700EE86FB = {
 			isa = PBXGroup;
 			children = (
@@ -62,9 +84,8 @@
 		9934BF741E485E5700EE86FB /* ZFRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				9934BFA31E48AC7C00EE86FB /* RefreshClasses */,
+				990716021E4ADB14009AEE25 /* ZFRefresh */,
 				9934BF751E485E5700EE86FB /* AppDelegate.swift */,
-				9934BFA71E48AC7C00EE86FB /* ZFRefreshControl.swift */,
 				9934BF771E485E5700EE86FB /* ViewController.swift */,
 				9934BF791E485E5700EE86FB /* Main.storyboard */,
 				9934BF7C1E485E5700EE86FB /* Assets.xcassets */,
@@ -72,16 +93,6 @@
 				9934BF811E485E5700EE86FB /* Info.plist */,
 			);
 			path = ZFRefresh;
-			sourceTree = "<group>";
-		};
-		9934BFA31E48AC7C00EE86FB /* RefreshClasses */ = {
-			isa = PBXGroup;
-			children = (
-				9934BFA41E48AC7C00EE86FB /* tableview_loading@2x.png */,
-				9934BFA51E48AC7C00EE86FB /* tableview_pull_refresh@2x.png */,
-				9934BFA81E48AC7C00EE86FB /* ZFRefreshView.xib */,
-			);
-			path = RefreshClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,12 +153,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9907160A1E4ADB14009AEE25 /* tableview_loading@2x.png in Resources */,
+				9907160B1E4ADB14009AEE25 /* tableview_pull_refresh@2x.png in Resources */,
+				9907160D1E4ADB14009AEE25 /* ZFRefreshView.xib in Resources */,
+				990716091E4ADB14009AEE25 /* 2017-02-08 12_27_09.gif in Resources */,
 				9934BF801E485E5700EE86FB /* LaunchScreen.storyboard in Resources */,
-				9934BFA91E48AC7C00EE86FB /* tableview_loading@2x.png in Resources */,
-				9934BFAD1E48AC7C00EE86FB /* ZFRefreshView.xib in Resources */,
 				9934BF7D1E485E5700EE86FB /* Assets.xcassets in Resources */,
 				9934BF7B1E485E5700EE86FB /* Main.storyboard in Resources */,
-				9934BFAA1E48AC7C00EE86FB /* tableview_pull_refresh@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,8 +171,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9934BF781E485E5700EE86FB /* ViewController.swift in Sources */,
-				9934BFAC1E48AC7C00EE86FB /* ZFRefreshControl.swift in Sources */,
 				9934BF761E485E5700EE86FB /* AppDelegate.swift in Sources */,
+				9907160C1E4ADB14009AEE25 /* ZFRefreshControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
