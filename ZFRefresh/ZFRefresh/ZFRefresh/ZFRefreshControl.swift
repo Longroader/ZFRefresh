@@ -121,12 +121,10 @@ class ZFRefreshLabel: UILabel {
         UIView.animateWithDuration(0.5, animations: { () -> Void in
             self.transform = CGAffineTransformMakeTranslation(0, kHEIGHT)
             }) { (_) -> Void in
-                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(1.0 * Double(NSEC_PER_SEC))), dispatch_get_main_queue(), { () -> Void in
-                    UIView.animateWithDuration(0.5, animations: { () -> Void in
-                        self.transform = CGAffineTransformIdentity
-                        }, completion: { (_) -> Void in
-                            self.hidden = true
-                    })
+                UIView.animateWithDuration(0.5, delay: 1.0, options: [], animations: { () -> Void in
+                    self.transform = CGAffineTransformIdentity
+                    }, completion: { (_) -> Void in
+                        self.hidden = true
                 })
         }
     }

@@ -21,8 +21,7 @@ class ViewController: UITableViewController {
     }
     
     @objc private func loadData() {
-        
-        
+    
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(1.5 * Double(NSEC_PER_SEC))), dispatch_get_main_queue()) { () -> Void in
             
             // 2.网络请求成功或者失败后，结束刷新
