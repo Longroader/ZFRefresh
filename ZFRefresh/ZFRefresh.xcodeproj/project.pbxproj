@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9934BF761E485E5700EE86FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934BF751E485E5700EE86FB /* AppDelegate.swift */; };
+		9934BF781E485E5700EE86FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934BF771E485E5700EE86FB /* ViewController.swift */; };
+		9934BF7B1E485E5700EE86FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9934BF791E485E5700EE86FB /* Main.storyboard */; };
+		9934BF7D1E485E5700EE86FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9934BF7C1E485E5700EE86FB /* Assets.xcassets */; };
+		9934BF801E485E5700EE86FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9934BF7E1E485E5700EE86FB /* LaunchScreen.storyboard */; };
+		9934BFA91E48AC7C00EE86FB /* tableview_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9934BFA41E48AC7C00EE86FB /* tableview_loading@2x.png */; };
+		9934BFAA1E48AC7C00EE86FB /* tableview_pull_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9934BFA51E48AC7C00EE86FB /* tableview_pull_refresh@2x.png */; };
+		9934BFAC1E48AC7C00EE86FB /* ZFRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934BFA71E48AC7C00EE86FB /* ZFRefreshControl.swift */; };
+		9934BFAD1E48AC7C00EE86FB /* ZFRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9934BFA81E48AC7C00EE86FB /* ZFRefreshView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9934BF721E485E5700EE86FB /* ZFRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9934BF751E485E5700EE86FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9934BF771E485E5700EE86FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9934BF7A1E485E5700EE86FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9934BF7C1E485E5700EE86FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9934BF7F1E485E5700EE86FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9934BF811E485E5700EE86FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9934BFA41E48AC7C00EE86FB /* tableview_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableview_loading@2x.png"; sourceTree = "<group>"; };
+		9934BFA51E48AC7C00EE86FB /* tableview_pull_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableview_pull_refresh@2x.png"; sourceTree = "<group>"; };
+		9934BFA71E48AC7C00EE86FB /* ZFRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZFRefreshControl.swift; path = RefreshClasses/ZFRefreshControl.swift; sourceTree = "<group>"; };
+		9934BFA81E48AC7C00EE86FB /* ZFRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFRefreshView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9934BF6F1E485E5700EE86FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9934BF691E485E5700EE86FB = {
+			isa = PBXGroup;
+			children = (
+				9934BF741E485E5700EE86FB /* ZFRefresh */,
+				9934BF731E485E5700EE86FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9934BF731E485E5700EE86FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9934BF721E485E5700EE86FB /* ZFRefresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9934BF741E485E5700EE86FB /* ZFRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				9934BFA31E48AC7C00EE86FB /* RefreshClasses */,
+				9934BF751E485E5700EE86FB /* AppDelegate.swift */,
+				9934BFA71E48AC7C00EE86FB /* ZFRefreshControl.swift */,
+				9934BF771E485E5700EE86FB /* ViewController.swift */,
+				9934BF791E485E5700EE86FB /* Main.storyboard */,
+				9934BF7C1E485E5700EE86FB /* Assets.xcassets */,
+				9934BF7E1E485E5700EE86FB /* LaunchScreen.storyboard */,
+				9934BF811E485E5700EE86FB /* Info.plist */,
+			);
+			path = ZFRefresh;
+			sourceTree = "<group>";
+		};
+		9934BFA31E48AC7C00EE86FB /* RefreshClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9934BFA41E48AC7C00EE86FB /* tableview_loading@2x.png */,
+				9934BFA51E48AC7C00EE86FB /* tableview_pull_refresh@2x.png */,
+				9934BFA81E48AC7C00EE86FB /* ZFRefreshView.xib */,
+			);
+			path = RefreshClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9934BF711E485E5700EE86FB /* ZFRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9934BF841E485E5700EE86FB /* Build configuration list for PBXNativeTarget "ZFRefresh" */;
+			buildPhases = (
+				9934BF6E1E485E5700EE86FB /* Sources */,
+				9934BF6F1E485E5700EE86FB /* Frameworks */,
+				9934BF701E485E5700EE86FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFRefresh;
+			productName = ZFRefresh;
+			productReference = 9934BF721E485E5700EE86FB /* ZFRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9934BF6A1E485E5700EE86FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = XiaoDream;
+				TargetAttributes = {
+					9934BF711E485E5700EE86FB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9934BF6D1E485E5700EE86FB /* Build configuration list for PBXProject "ZFRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9934BF691E485E5700EE86FB;
+			productRefGroup = 9934BF731E485E5700EE86FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9934BF711E485E5700EE86FB /* ZFRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9934BF701E485E5700EE86FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9934BF801E485E5700EE86FB /* LaunchScreen.storyboard in Resources */,
+				9934BFA91E48AC7C00EE86FB /* tableview_loading@2x.png in Resources */,
+				9934BFAD1E48AC7C00EE86FB /* ZFRefreshView.xib in Resources */,
+				9934BF7D1E485E5700EE86FB /* Assets.xcassets in Resources */,
+				9934BF7B1E485E5700EE86FB /* Main.storyboard in Resources */,
+				9934BFAA1E48AC7C00EE86FB /* tableview_pull_refresh@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9934BF6E1E485E5700EE86FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9934BF781E485E5700EE86FB /* ViewController.swift in Sources */,
+				9934BFAC1E48AC7C00EE86FB /* ZFRefreshControl.swift in Sources */,
+				9934BF761E485E5700EE86FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9934BF791E485E5700EE86FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9934BF7A1E485E5700EE86FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9934BF7E1E485E5700EE86FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9934BF7F1E485E5700EE86FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9934BF821E485E5700EE86FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9934BF831E485E5700EE86FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9934BF851E485E5700EE86FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiaoDream.ZFRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9934BF861E485E5700EE86FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiaoDream.ZFRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9934BF6D1E485E5700EE86FB /* Build configuration list for PBXProject "ZFRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9934BF821E485E5700EE86FB /* Debug */,
+				9934BF831E485E5700EE86FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9934BF841E485E5700EE86FB /* Build configuration list for PBXNativeTarget "ZFRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9934BF851E485E5700EE86FB /* Debug */,
+				9934BF861E485E5700EE86FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9934BF6A1E485E5700EE86FB /* Project object */;
+}
