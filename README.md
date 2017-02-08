@@ -36,4 +36,4 @@ We welcome any contributions.
 
 ## License
 
-Hero is available under the MIT license. See the LICENSE file for more info.
+ZFRefresh is available under the MIT license. See the LICENSE file for more info.
