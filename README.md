@@ -28,7 +28,7 @@ class ViewController: UITableViewController {
 
 ## Thanks
 
-受到@极客江南的启发，感谢！
+受到@极客江南的启发，非常感谢！
 
 ## Contribute
 
