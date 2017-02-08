@@ -2,7 +2,8 @@
 
 个人开源项目，基于系统UIRefreshControl的自定义下拉刷新控件，极易上手。
 
-## 使用方法，导入ZFRefresh文件夹，在tableViewController中写如下三行代码：
+### 使用方法
+导入ZFRefresh文件夹，在tableViewController中写如下三行代码：
 ```swift
 class ViewController: UITableViewController {
     override func viewDidLoad() {
@@ -23,7 +24,7 @@ class ViewController: UITableViewController {
 }
 ```
 ## 示例效果
-<img src="https://cdn.rawgit.com/lkzhao/Hero/bff6d87907006d1847ed0b7121e9fb4ac4d68320/Resources/Hero.svg" width="388"/>#
+![image](https://github.com/Longroader/ZFRefresh/blob/master/ZFRefresh/ZFRefresh/ZFRefresh/Sources/2017-02-08%2012_27_09.gif)
 
 ## Thanks
 
