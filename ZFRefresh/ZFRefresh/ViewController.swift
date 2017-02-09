@@ -16,14 +16,19 @@ class ViewController: UITableViewController {
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: ID)
         
         // 1.创建刷新控件，添加监听
-        refreshControl = ZFRefreshControl(navBar: (navigationController?.navigationBar)!)
+        refreshControl = ZFRefreshControl(navBar: navigationController!.navigationBar)
         refreshControl?.addTarget(self, action: "loadData", forControlEvents: .ValueChanged)
     }
     
     @objc private func loadData() {
     
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(1.5 * Double(NSEC_PER_SEC))), dispatch_get_main_queue()) { () -> Void in
-            // 2.网络请求成功或者失败后，结束刷新
+            
+            /**
+            2.网络请求成功或者失败后，结束刷新
+            
+            :param: (10) 刷新到的数据量
+            */
             self.refreshControl?.zf_endRefreshing(10)
         }
     }
