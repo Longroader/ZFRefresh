@@ -10,6 +10,10 @@ import UIKit
 
 let kHEIGHT: CGFloat = 44
 let kWIDTH: CGFloat = UIScreen.mainScreen().bounds.width
+let kREFRESH_FRAME_Y: CGFloat = 50
+let kANIM_DURATION: NSTimeInterval = 0.5
+let kANIM_DELAY: NSTimeInterval = 1.0
+let kBACKGROUND_COLOR: UIColor = UIColor(red: 245/255, green: 139/255, blue: 31/255, alpha: 0.9)
 
 class ZFRefreshControl: UIRefreshControl {
 
@@ -41,10 +45,10 @@ class ZFRefreshControl: UIRefreshControl {
             return
         }
         
-        if frame.origin.y >= -50 && arrowFlag {
+        if frame.origin.y >= -kREFRESH_FRAME_Y && arrowFlag {
             arrowFlag = false
             refreshView.arrowIconAnim(arrowFlag)
-        } else if frame.origin.y <= -50 && !arrowFlag {
+        } else if frame.origin.y <= -kREFRESH_FRAME_Y && !arrowFlag {
             arrowFlag = true
             refreshView.arrowIconAnim(arrowFlag)
         }
@@ -93,7 +97,7 @@ class ZFRefreshView: UIView {
     func loadingIconAnim() {
         tipView.hidden = true
         let anim = CABasicAnimation(keyPath: "transform.rotation")
-        anim.duration = 1.0
+        anim.duration = 2 * kANIM_DURATION
         anim.toValue = 2 * M_PI
         anim.repeatCount = MAXFLOAT
         loadingIcon.layer.addAnimation(anim, forKey: nil)
@@ -108,7 +112,7 @@ class ZFRefreshView: UIView {
 class ZFRefreshLabel: UILabel {
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = UIColor(red: 245/255, green: 139/255, blue: 31/255, alpha: 0.9)
+        backgroundColor = kBACKGROUND_COLOR
         textColor = UIColor.whiteColor()
         font = UIFont.boldSystemFontOfSize(14.0)
         textAlignment = NSTextAlignment.Center
@@ -118,10 +122,10 @@ class ZFRefreshLabel: UILabel {
     func refreshLabelAnim(dataCount: Int) {
         self.hidden = false
         text = (dataCount == 0) ? "暂无更新的数据" : "刷新了\(dataCount)条数据"
-        UIView.animateWithDuration(0.5, animations: { () -> Void in
+        UIView.animateWithDuration(kANIM_DURATION, animations: { () -> Void in
             self.transform = CGAffineTransformMakeTranslation(0, kHEIGHT)
             }) { (_) -> Void in
-                UIView.animateWithDuration(0.5, delay: 1.0, options: [], animations: { () -> Void in
+                UIView.animateWithDuration(kANIM_DURATION, delay: kANIM_DELAY, options: [], animations: { () -> Void in
                     self.transform = CGAffineTransformIdentity
                     }, completion: { (_) -> Void in
                         self.hidden = true

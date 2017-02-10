@@ -29,7 +29,7 @@ class ViewController: UITableViewController {
             
             :param: (10) 刷新到的数据量
             */
-            self.refreshControl?.zf_endRefreshing(10)
+            self.refreshControl?.zf_endRefreshing(28)
         }
     }
 }
